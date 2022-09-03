@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script
+      src="https://kit.fontawesome.com/5f937f43c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <!-- mobile navigation -->
+      <div class="mobile--nav--links hidden">
+        <a href=".my--info" class="mobile--nav--link active--class">Home</a>
+        <a href=".resume" class="mobile--nav--link">Resume</a>
+        <a href=".services" class="mobile--nav--link">Services</a>
+        <a href=".my--skills" class="mobile--nav--link">Skills</a>
+        <a href=".projects" class="mobile--nav--link">Projects</a>
+        <a href=".my--contact" class="mobile--nav--link">Contact</a>
+      </div>
+
+      <!-- Nav section -->
+      <nav class="nav" id="home">
+        <!-- brand and title -->
+        <div class="nav--brand">
+          <span class="nav--dot"></span>
+          <p class="my--name">
+            <b>Oluwatomiwa Oladele</b> <span class="job--title">Developer</span>
+          </p>
+        </div>
+
+        <!-- hamburger button -->
+        <button class="hamburger--button">
+          <div class="hamburger--button__bar"></div>
+          <div class="hamburger--button__bar"></div>
+          <div class="hamburger--button__bar"></div>
+        </button>
+
+        <!-- nav links -->
+        <div class="nav--links">
+          <a href=".my--info" class="nav--link active--class">Home</a>
+          <a href=".resume" class="nav--link">Resume</a>
+          <a href=".services" class="nav--link">Services</a>
+          <a href=".my--skills" class="nav--link">Skills</a>
+          <a href=".projects" class="nav--link">Projects</a>
+          <a href=".my--contact" class="nav--link">Contact</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- container body -->
+    <div class="container">
+      <!-- main <section></section> -->
+      <section class="my--info">
+        <img src="tomiwa.JPG" alt="Photo of me" class="my--pic" />
+        <div class="about--me">
+          <div class="hello about--me__content">Hello! 👋🏾</div>
+          <div class="about--me__content">Welcome 😍 to my Portfolio.</div>
+          <div class="about--me__short about--me__content">
+            <p>
+              My name is Tomiwa. I develop exciting mobile friendly user
+              interfaces with HTML, CSS3, JavaScript, and figma. I also love
+              hommade fried plantain 😀. You can reach me by clicking the
+              beautiful contact button below and getting a message across using
+              the form at the bottom of the page🥳. Look forward to hearing from
+              you!
+            </p>
+          </div>
+          <div class="rounded--btns about--me__content">
+            <a href=".resume" class="rounded--link"
+              ><button class="rounded--btn rounded--btns__grey">
+                Resume
+              </button></a
+            >
+            <a href=".projects" class="rounded--link"
+              ><button class="rounded--btn rounded--btns__chocolate">
+                Projects
+              </button></a
+            >
+            <a href=".my--contact" class="rounded--link"
+              ><button class="rounded--btn rounded--btns__chocolate">
+                Contact
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume -->
+      <section class="resume" id="resume">
+        <div class="resume--header">
+          <h1>Resume</h1>
+        </div>
+        <div class="resume--grid__layout">
+          <div class="resume--grid">
+            <i class="fa-solid fa-user-graduate resume--icon"></i>
+            <div class="grid--year">2015 - 2019</div>
+            <div class="grid--title">Bachelor's Degree of Computer Science</div>
+            <div class="grid--location">
+              Federal University of Technology Akure (FUTA)
+            </div>
+            <div class="grid--about">
+              Got my first degree in Computer Science with a cgpa of 3.01 / 5.
+            </div>
+          </div>
+          <div class="resume--grid">
+            <i class="fa-solid fa-chalkboard-user resume--icon"></i>
+            <div class="grid--year">2018 - 2019</div>
+            <div class="grid--title">Internship</div>
+            <div class="grid--location">
+              Ondo State Oil Producing Areas Development Commission (OSOPADEC)
+            </div>
+            <div class="grid--about">
+              Got my first work experience as an intern working with a team of
+              developers
+            </div>
+          </div>
+          <div class="resume--grid">
+            <i class="fa-solid fa-award resume--icon"></i>
+            <div class="grid--year">2020 - 2021</div>
+            <div class="grid--title">National Youth Service Corps</div>
+            <div class="grid--location">Patigi Local Government, Kwara</div>
+            <div class="grid--about">
+              Worked as Corper's Liaison Officer and was involved in testing and
+              deployment of the local government website
+            </div>
+          </div>
+          <div class="resume--grid">
+            <i class="fa-solid fa-chalkboard resume--icon"></i>
+            <div class="grid--year">2021 - Present</div>
+            <div class="grid--title">Information Communication Officer</div>
+            <div class="grid--location">
+              Perfect Favour of God Nur/Pry School Akure
+            </div>
+            <div class="grid--about">
+              involved in software and hardware installation, testing,
+              maintenance and optimization
+            </div>
+          </div>
+        </div>
+        <a href="Tomiwa-resume.pdf" download=""
+          ><button class="download--resume">Download Resume</button></a
+        >
+      </section>
+
+      <!-- services section -->
+      <section class="services" id="services">
+        <div class="services--header">
+          <h1>My Services</h1>
+        </div>
+        <div class="services--grid__layout">
+          <div class="services--grid">
+            <i class="fa-solid fa-palette services--icon"></i>
+            <div class="services--title">WEB DESIGN</div>
+          </div>
+          <div class="services--grid">
+            <i class="fa-brands fa-uncharted services--icon"></i>
+            <div class="services--title">SOFTWARE INSTALLATION</div>
+          </div>
+          <div class="services--grid">
+            <i class="fa-solid fa-comment-slash services--icon"></i>
+            <div class="services--title">SOFTWARE TESTING</div>
+          </div>
+          <div class="services--grid">
+            <i class="fa-brands fa-figma services--icon"></i>
+            <div class="services--title">UI/UX</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- my skills section -->
+      <section class="my--skills" id="skills">
+        <h1>My Skills</h1>
+        <div class="my--skills__set">
+          <div class="skill">
+            <h5>HTML5</h5>
+            <div class="skill--bar">
+              <div class="skill--bar__bar html">90%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <h5>CSS3</h5>
+            <div class="skill--bar">
+              <div class="skill--bar__bar css">90%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <h5>JavaScript</h5>
+            <div class="skill--bar">
+              <div class="skill--bar__bar js">75%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <h5>Figma</h5>
+            <div class="skill--bar">
+              <div class="skill--bar__bar figma">80%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <h5>React</h5>
+            <div class="skill--bar">
+              <div class="skill--bar__bar react">50%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <h5>WordPress</h5>
+            <div class="skill--bar">
+              <div class="skill--bar__bar wordpress">70%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects  section-->
+      <section class="projects" id="projects">
+        <div class="projects--header">
+          <h1>My Projects</h1>
+        </div>
+        <div class="projects--grid__layout">
+          <div class="projects--grid item--1">
+            <img src="english-learning.png" alt="" class="projects--img" />
+            <a
+              href="https://english-learning-starter.netlify.app"
+              class="projects--title"
+              >Branding & Illustration <b>Web Design</b></a
+            >
+          </div>
+
+          <div class="projects--grid item--2">
+            <img src="highmos.png" alt="" class="projects--img" />
+            <a
+              href="https://highmos-starter.netlify.app"
+              class="projects--title"
+              >Branding & Illustration <b>Web Design</b></a
+            >
+          </div>
+
+          <div class="projects--grid item--3">
+            <img src="bankist.png" alt="" class="projects--img" />
+            <a
+              href="https://bankist-starter.netlify.app"
+              class="projects--title"
+              >Branding & Illustration <b>Web Design</b></a
+            >
+          </div>
+
+          <div class="projects--grid item--4">
+            <img src="skill-learning.png" alt="" class="projects--img" />
+            <a href="https://skill-learning.netlify.app" class="projects--title"
+              >Branding & Illustration <b>Web Design</b></a
+            >
+          </div>
+
+          <div class="projects--grid item--5">
+            <img src="behold-starter.png" alt="" class="projects--img" />
+            <a href="https://behold-starter.netlify.app" class="projects--title"
+              >Branding & Illustration <b>Web Design</b></a
+            >
+          </div>
+
+          <div class="projects--grid item--6">
+            <img src="collab.png" alt="" class="projects--img" />
+            <a href="https://collab-starter.netlify.app" class="projects--title"
+              >Branding & Illustration <b>Web Design</b></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section class="my--contact" id="my--contact">
+        <div class="reach--me">
+          <div class="my--contact__header">
+            <h1>CONTACT ME</h1>
+            <h5></h5>
+          </div>
+
+          <!-- form section -->
+          <div class="my--contact__form">
+            <div class="form--img">
+              <img
+                src="pointer-img.jpeg"
+                alt="My Photo"
+                class="my--contact__form--photo"
+              />
+              <div class="image--gradient"></div>
+            </div>
+            <form action="”form.php”" method="get">
+              <?php
+                require("form.php");
+              ?>
+              <input type="text" placeholder="Your Name" name="name" />
+              <input type="text" placeholder="Email" name="email" />
+              <input type="text" placeholder="Subject" name="subject" />
+              <textarea
+                name="message"
+                id=""
+                cols="20"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <button class="send--message">Send message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <div class="my--contact__info">
+      <div class="my--contact__info--items">
+        <i class="fa-solid fa-location-arrow"></i>
+        <h1>Location</h1>
+        <h5>Akure, Ondo State</h5>
+      </div>
+      <div class="my--contact__info--items">
+        <div class="connect--icons">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <h1>phone</h1>
+        <h5>0806 837 5081</h5>
+      </div>
+      <div class="my--contact__info--items">
+        <div class="coonect--icons">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <h1>Email</h1>
+        <h5>tomiwasemilore@gmail.com</h5>
+      </div>
+      <div class="my--contact__info--items">
+        <i class="fa-brands fa-hashtag"></i>
+        <h1>Social Media</h1>
+        <a href="https://twitter.com/@tomsexyne" class="connect"
+          ><i class="fa-brands fa-twitter small--font"></i
+        ></a>
+        <a
+          href="https://linkedin.com/in/tomiwa-oladele-19409319b"
+          class="connect"
+          ><i class="fa-brands fa-linkedin small--font"></i
+        ></a>
+        <a href="https://github.com/ladhenrytom" class="connect"
+          ><i class="fa-brands fa-github small--font"></i
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>
