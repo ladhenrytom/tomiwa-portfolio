@@ -875,6 +875,9 @@ textarea::placeholder {
     height: 70px;
     border-radius: 35px;
   }
+  .rounded--btn:hover {
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 370px) {
   .my--name b {
