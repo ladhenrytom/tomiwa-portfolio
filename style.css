@@ -877,6 +877,7 @@ textarea::placeholder {
   }
   .rounded--btn:hover {
     font-size: 18px;
+    padding: 8px;
   }
 }
 @media only screen and (max-width: 370px) {
