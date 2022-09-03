@@ -85,11 +85,11 @@ a {
   display: flex;
   font-size: 20px;
   justify-content: space-between;
+  z-index: 60;
 }
 .nav.sticky {
   position: fixed;
   box-shadow: 0 5px 8px rgba(23, 31, 42, 1);
-  z-index: 60;
 }
 
 .nav--brand {
