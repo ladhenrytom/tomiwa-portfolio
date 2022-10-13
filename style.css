@@ -810,7 +810,7 @@ textarea::placeholder {
   }
   .about--me {
     width: 60vw;
-    text-align: justify;
+    text-align: left;
   }
   .services--grid__layout {
     grid-template-columns: repeat(1, 1fr);
