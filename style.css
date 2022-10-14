@@ -366,7 +366,7 @@ a {
   transition: 100ms ease-in;
 }
 .services--grid:nth-child(even) {
-  box-shadow: 5px -5px 8px #888888;
+  box-shadow: -5px 5px 8px #888888;
 }
 .services--grid i {
   /* color: rgba(203, 54, 75, 1); */
