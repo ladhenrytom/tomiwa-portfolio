@@ -368,7 +368,7 @@ a {
 .services--grid i {
   /* color: rgba(203, 54, 75, 1); */
   margin: 24px 0;
-  font-size: 72px;
+  font-size: 64px;
 }
 .services--grid:hover {
   /* background: rgba(203, 54, 75, 1); */
@@ -391,7 +391,7 @@ a {
   opacity: 0;
 } */
 .services--title {
-  font-size: 40px;
+  font-size: 24px;
 }
 
 /* my skills  */
