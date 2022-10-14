@@ -148,13 +148,12 @@ a {
 .nav--link {
   text-decoration: none;
   margin-left: 24px;
-  font-weight: 700;
+  font-weight: 400;
   transition: 300ms ease-in;
 }
 .active {
   color: rgba(203, 54, 75, 1);
   text-decoration: none;
-  margin-left: 12px;
   font-weight: 700;
   transition: 300ms ease-in;
 }
