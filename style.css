@@ -507,26 +507,11 @@ a {
 .item--6 {
   grid-column: 4 / span 4;
 }
-/* .projects--grid::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(23, 31, 42, 0.5);
-  transition: opacity 300ms ease-in-out;
-} */
-/* .projects--grid:hover::before {
-  opacity: 0;
-} */
 
 .projects--img {
   position: absolute;
   width: 100%;
-  height: 100%;
-  /* font-size: 720px; */
-  /* margin-bottom: 8px; */
+/*   height: 100%; */
   border-radius: 8px;
   object-fit: cover;
 }
