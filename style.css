@@ -482,12 +482,9 @@ a {
 .projects--grid {
   position: relative;
   display: flex;
-  /* color: rgba(23, 31, 42, 1); */
   border-radius: 8px;
-  height: 400px;
-  /* background: rgb(240, 234, 234); */
-  /* border: 2px solid rgba(23, 31, 42, 1); */
-  /* overflow: hidden; */
+  height: 300px;
+  overflow: hidden;
 }
 .item--1 {
   grid-column: 1/4;
@@ -509,7 +506,7 @@ a {
 }
 
 .projects--img {
-  position: absolute;
+/*   position: absolute; */
 /*   width: 100%; */
   height: 100%;
   border-radius: 8px;
