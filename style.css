@@ -442,6 +442,7 @@ a {
 .projects {
   font-size: 16px;
   text-align: center;
+  scroll-margin:24px;
 }
 .projects--header {
   color: rgba(23, 31, 42, 0.9);
