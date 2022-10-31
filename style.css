@@ -54,7 +54,6 @@ a {
   align-items: center;
   transform: translateX(50vw);
   transition: transform 300ms ease-in;
-  z-index: 100;
 }
 .hidden {
   transform: translateX(100vw);
