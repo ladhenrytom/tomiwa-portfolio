@@ -492,7 +492,10 @@ a {
   grid-column: 4 / span 4;
 }
 .item--7 {
-  grid-column: 1 / span 7;
+  grid-column: 1 / span 5;
+}
+.item--8 {
+  grid-column: 5 / span 3;
 }
 
 .projects--img {
