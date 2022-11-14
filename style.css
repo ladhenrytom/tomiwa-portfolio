@@ -567,6 +567,9 @@ textarea::placeholder {
   color: rgba(203, 54, 75, 1);
   opacity: 0.3;
 }
+form a{
+  align-self:center;
+}
 .send--message {
   padding: 16px 8px;
   width: 200px;
