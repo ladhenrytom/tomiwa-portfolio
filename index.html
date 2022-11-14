@@ -277,9 +277,6 @@
               <div class="image--gradient"></div>
             </div>
             <form action="”form.php”" method="get">
-              <?php
-                require("form.php");
-              ?>
               <input type="text" placeholder="Your Name" name="name" />
               <input type="text" placeholder="Email" name="email" />
               <input type="text" placeholder="Subject" name="subject" />
@@ -290,7 +287,10 @@
                 rows="10"
                 placeholder="Message"
               ></textarea>
-              <button class="send--message">Send message</button>
+              <a href="mailto:tomiwasemilore@gmail.com">
+                <button class="send--message">Send message</button>
+              </a>
+              
             </form>
           </div>
         </div>
