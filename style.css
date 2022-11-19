@@ -119,7 +119,7 @@ a {
   background: none;
   border: none;
   outline: none;
-  /* z-index: 55; */
+  z-index: 101;
 }
 .hamburger--button__bar {
   width: 28px;
