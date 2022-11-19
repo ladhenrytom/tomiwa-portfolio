@@ -85,7 +85,7 @@ a {
   display: flex;
   font-size: 20px;
   justify-content: space-between;
-  z-index: 60;
+  z-index: 999;
 }
 .nav.sticky {
   position: fixed;
